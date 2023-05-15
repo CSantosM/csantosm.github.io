@@ -1,4 +1,4 @@
-title: Vonge
+title: Carlos Santos
 
 plugins:
   - jekyll-bookshop
@@ -6,11 +6,6 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-pagebreak
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
