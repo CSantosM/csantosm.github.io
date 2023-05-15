@@ -6,8 +6,8 @@ icon = "wysiwyg"
 tags = ["Text"]
 
 [props]
-form_title = "Get in touch"
-form_description = "Vonge comes with a built-in contact form."
+form_title = "Escríbme"
+form_description = "¿Necesitas más información? Escríbeme ahora mismo."
 form_success_page = "/"
-form_submission_email = "site@example.com" # Add your email for contact form
-form_button_text = "Send now"
+form_submission_email = "csantosm.dev@gmail.com" # Add your email for contact form
+form_button_text = "Enviar"

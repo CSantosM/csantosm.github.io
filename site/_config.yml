@@ -34,6 +34,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  services:
+    output: true
+    permalink: /services/:slug
   testimonials:
     output: false
   posts:
@@ -57,7 +60,8 @@ _collection_groups:
   - heading: Content
     collections:
       - pages
-      - projects
+      # - projects
+      - services
       - testimonials
   - heading: Blogging
     collections:
@@ -81,6 +85,10 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      type: services
+    values:
+      layout: services
   - scope:
       type: posts
     values:

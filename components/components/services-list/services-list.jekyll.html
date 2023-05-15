@@ -1,0 +1,9 @@
+{% if include.show_services %}
+<div class="container animate">
+  <div class="row">
+    {% for service in site.services %}
+      {% bookshop service-card service=service %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

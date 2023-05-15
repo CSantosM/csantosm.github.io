@@ -1,0 +1,9 @@
+[component]
+structures = [ "content_blocks" ]
+label = "Services List"
+description = "Listado de todos los servicios"
+icon = "wysiwyg"
+tags = ["Collections"]
+
+[props]
+show_services = true

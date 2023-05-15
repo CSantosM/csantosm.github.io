@@ -64,7 +64,7 @@
 
 .post-tags {
 	display: flex;
-	
+
 	.post-tags__tag {
 		position: relative;
 		z-index: 1;
@@ -364,7 +364,7 @@
 	@media only screen and (max-width: $tablet) {
 		flex-wrap: wrap;
 
-		
+
 		.post__prev, .post__next {
 			width: 100%;
 
@@ -428,7 +428,7 @@
 }
 
 /* Project */
-.project-subtitle {
+.project-subtitle, .service-subtitle {
 	margin: 20px 0 0;
 	font-size: 21px;
 	line-height: 1;
@@ -441,7 +441,7 @@
 }
 
 /* Project Navigation */
-.project__navigation {
+.project__navigation, .service__navigation {
 	max-width: 780px;
 	margin: 80px auto 40px;
 	text-align: center;
@@ -451,18 +451,18 @@
 	}
 }
 
-.project__prev {
+.project__prev , .service__prev {
 	&:hover {
 		color: $text-color;
 
-		.project__nav__title .arrow-right {
+		.project__nav__title .arrow-right, .service__nav__title .arrow-right {
 			opacity: 1;
 			transform: translateX(3px);
 		}
 	}
 }
 
-.project__nav__info {
+.project__nav__info, .service__nav__info {
 	display: inline-block;
 	margin: 0 20px 4px 0;
 	font-size: 12px;
@@ -471,7 +471,7 @@
 	text-transform: uppercase;
 }
 
-.project__nav__title {
+.project__nav__title, .service__nav__title {
 	margin-bottom: 20px;
 	font-size: 40px;
 	line-height: 1.2;

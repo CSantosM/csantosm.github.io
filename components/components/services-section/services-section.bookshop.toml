@@ -1,0 +1,12 @@
+[component]
+structures = [ "content_blocks" ]
+label = "Services"
+description = "Services Section with heading, a description and a link"
+icon = "wysiwyg"
+tags = ["Content"]
+
+[props]
+title = "Mis servicios"
+description_html = "Aquí están mis servicios más demandados"
+link_url = "/services"
+show_services = true
