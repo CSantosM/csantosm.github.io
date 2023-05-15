@@ -43,19 +43,6 @@ collections:
     output: true
     permalink: /blog/:slug
 
-cloudcannon:
-  collections:
-    pages:
-      _icon: 'wysiwyg'
-    projects:
-      _icon: 'work_outline'
-      _subtext_key: subtitle
-    testimonials:
-      _icon: 'format_quote'
-      _subtext_key: position
-      _enabled_editors:
-        - data
-
 _collection_groups:
   - heading: Content
     collections:
